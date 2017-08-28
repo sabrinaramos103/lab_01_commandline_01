@@ -17,9 +17,13 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
+Adlm			MPLABXProjects		Things
+Adobe			Movies			ipe.properties
+Applications		Music			isus
+Desktop			New Unity Project	pymel.log
+Documents		Pictures		xgen
+Downloads		Public
+Library			QLData
 ==========
 2a. Type: 
 
