@@ -31,19 +31,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Nothing. [Beep]
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -53,7 +53,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwxr-xr-x   7 student  staff   238 Aug  9 17:44 Ableton
+drwxrwxrwx  13 student  staff   442 Aug  9 17:49 Adobe
 
 
 ==========
@@ -63,7 +64,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Arduino			Pro Tools
+..			Avid Projects		Processing
 
 
 ==========
@@ -73,7 +75,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -83,7 +85,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -93,6 +95,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+When pressing tab the rest of the word was auto completed [ls /Volumes/].
 
 
 
@@ -103,37 +106,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+To go to the previous command you can press the UP key.
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+The two flags we used in this exercise are -a and -l.
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+The key that is used to autocomplete a command is TAB.
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+The main command used in this exercise was ls.
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+One argument that we passed to the command was Desktop.
 
 
 ==========
@@ -143,7 +146,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -153,7 +156,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -163,3 +166,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command, the flag is -a, the argument is Desktop, and the prompt is $.
