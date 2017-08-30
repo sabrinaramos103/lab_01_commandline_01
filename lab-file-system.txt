@@ -11,7 +11,7 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-ent-v314-014:mtec1002 student$ 
+ent-v314-014:~ student$ 
 ==========
 2. Create a directory called mtec1002.
 ----------
@@ -26,7 +26,7 @@ MPLABXProjects		drills.py
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-ent-v314-014:~ student$ cd mtec1002
+ent-v314-014:mtec1002 student$
 ==========
 4. Type:
 
@@ -40,7 +40,6 @@ Copy and paste the output of pwd below.
 ----------
 /Users/student/mtec1002
 
-
 ==========
 5. Type:
 
@@ -52,6 +51,7 @@ Copy and paste the output below.
 ent-v314-014:mtec1002 student$ mkdir animals
 ent-v314-014:mtec1002 student$ ls
 animals
+/Users/student/mtec1002/animals
 
 ==========
 6. Type:
@@ -61,15 +61,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
-Adlm			Movies			food
-Adobe			Music			garbage
-Applications		New Unity Project	ipe.properties
-Desktop			Pictures		isus
-Documents		Public			mtec1002
-Downloads		QLData			pymel.log
-Library			Things			xgen
-MPLABXProjects		drills.py
-
+ent-v314-014:mtec1002 student$ ls
+animals	food
 
 ==========
 7. Type:
@@ -79,15 +72,8 @@ $ ls
 
 Copy and paste the output below.
 ----------
-Adlm			Movies			foo
-Adobe			Music			food
-Applications		New Unity Project	garbage
-Desktop			Pictures		ipe.properties
-Documents		Public			isus
-Downloads		QLData			mtec1002
-Library			Things			pymel.log
-MPLABXProjects		drills.py		xgen
-
+ent-v314-014:mtec1002 student$ ls
+animals	foo	food
 
 ==========
 8. Type:
@@ -108,7 +94,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/Users/student/foo/bar/baz/qux
+/Users/student
 
 
 ==========
@@ -119,7 +105,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/Users/student
+/Users/student/mtec1002
 
  
 ==========
@@ -142,8 +128,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
+drwxr-xr-x  3 student  staff  102 Aug 30 10:12 foo
+drwxr-xr-x  2 student  staff   68 Aug 30 10:11 food
 
 ==========
 13. Type:
@@ -153,7 +139,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -164,7 +150,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -176,7 +162,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -186,6 +172,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Users/student/mtec1002
 
 
 
@@ -196,14 +183,16 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v314-014.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
+command pwd would be used to find where you are.
 
-
+ent-v314-014:mtec1002 student$ pwd
+/Users/student/mtec1002
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -225,7 +214,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -233,7 +222,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -241,7 +230,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x  2 student  staff   68 Aug 30 10:24 aardvark
 
 
 ==========
@@ -253,7 +242,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir foo/bar/baz
 
 
 ==========
@@ -261,7 +250,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd bar
 
 
 ==========
@@ -269,7 +258,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
