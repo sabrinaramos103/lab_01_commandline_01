@@ -11,15 +11,22 @@ Follow the instructions line-by-line.
 ==========
 1. Open a new terminal window.
 ----------
-
+ent-v314-014:mtec1002 student$ 
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+Adlm			Movies			garbage
+Adobe			Music			ipe.properties
+Applications		New Unity Project	isus
+Desktop			Pictures		mtec1002
+Documents		Public			pymel.log
+Downloads		QLData			xgen
+Library			Things
+MPLABXProjects		drills.py
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-
+ent-v314-014:~ student$ cd mtec1002
 ==========
 4. Type:
 
@@ -31,7 +38,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -42,8 +49,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-014:mtec1002 student$ mkdir animals
+ent-v314-014:mtec1002 student$ ls
+animals
 
 ==========
 6. Type:
@@ -53,7 +61,14 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+Adlm			Movies			food
+Adobe			Music			garbage
+Applications		New Unity Project	ipe.properties
+Desktop			Pictures		isus
+Documents		Public			mtec1002
+Downloads		QLData			pymel.log
+Library			Things			xgen
+MPLABXProjects		drills.py
 
 
 ==========
@@ -64,7 +79,14 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+Adlm			Movies			foo
+Adobe			Music			food
+Applications		New Unity Project	garbage
+Desktop			Pictures		ipe.properties
+Documents		Public			isus
+Downloads		QLData			mtec1002
+Library			Things			pymel.log
+MPLABXProjects		drills.py		xgen
 
 
 ==========
@@ -75,7 +97,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/foo/bar/baz/qux
 
 
 ==========
@@ -97,7 +119,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student
 
  
 ==========
@@ -108,7 +130,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/
 
 
 ==========
