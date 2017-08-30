@@ -263,7 +263,7 @@ cd ../..
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
@@ -271,31 +271,31 @@ cd ../..
 ----------
 
 
-
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+-a 
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 28. What's a pathname?
 ----------
-
+general form of the name of a folder or directory
 
 
 ==========
 29. What's a directory?
 ----------
-
+initially a folder
 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/student/Downloads
