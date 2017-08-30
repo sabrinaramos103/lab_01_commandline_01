@@ -269,7 +269,7 @@ rmdir
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+ls
 
 ==========
 26. What flag do I pass to ls to print out all files?
